@@ -28,4 +28,7 @@ libreoffice* thunderbird* transmission* cheese bresero gnome-themes-extra rhythm
 
 then clean up with sudo apt clean and sudo apt autoremove
 install openbox
+install lightdm as sddm will be gone, if reboot before doing this hit Ctrl + alt + f2 for terminal
+run lxqt-config-session to change to openbox
+
 
