@@ -23,5 +23,5 @@ now sudo apt update
 installed librewolf
 remove bloat with sudo apt purge 'bloat'
 i removed:
-libreoffice* thunderbird* transmission* cheese bresero gnome-themes-extra rhythmbox gnome-games shotwell gnome-disk-utility gnome-logs gnome-screenshot simple-scan sane* cups* printer-driver* sound-juicer orca gnome-keyring synaptic gnome-software kdeconnect smtube smplayer pidgin audacious mpv hexchat remmina qbittorrent meteo-qt screengrab xsane pavucontrol qpdfview kwalletmanager gucharmap xscreensaver gnome-characters gnome-calculator feathernotes gedit gnome-sound-recorder gnote featherpad qlipper xarchiver papirus-icon-theme
+libreoffice* thunderbird* transmission* cheese bresero gnome-themes-extra rhythmbox gnome-games shotwell gnome-disk-utility gnome-logs gnome-screenshot simple-scan sane* cups* printer-driver* sound-juicer orca gnome-keyring synaptic gnome-software kdeconnect smtube smplayer pidgin audacious mpv hexchat remmina qbittorrent meteo-qt screengrab xsane pavucontrol qpdfview kwalletmanager gucharmap xscreensaver gnome-characters gnome-calculator feathernotes gedit gnome-sound-recorder gnote featherpad qlipper xarchiver papirus-icon-theme discover gnome-system-monitor 
 then clean up with sudo apt clean and sudo apt autoremove
