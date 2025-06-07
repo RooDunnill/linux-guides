@@ -13,4 +13,14 @@ After Installation:
 su - followed by usermod -aG sudo username for sudo perms
 reboot and access another flash drive for eduroam
 installed eduroam by running the program
+add mirrors by navigating to /etc/apt/sources.list
+edit as such:
+comment out cdrom line
+add deb http://deb.debian.org/debian bookworm main
+add deb http://security.debian.org/debian-security bookworm-security main
+add deb http://deb.debian.org/debian bookworm-updates main
 now sudo apt update
+remove bloat with sudo apt purge 'bloat'
+i removed:
+libreoffice* thunderbird* transmission* cheese bresero gnome-themes-extra rhythmbox gnome-games shotwell gnome-disk-utility gnome-logs gnome-screenshot simple-scan sane* cups* printer-driver* sound-juicer orca gnome-keyring
+then clean up with sudo apt clean and sudo apt autoremove
