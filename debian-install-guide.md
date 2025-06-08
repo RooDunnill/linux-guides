@@ -24,11 +24,19 @@ now sudo apt update
 installed librewolf
 remove bloat with sudo apt purge 'bloat'
 i removed:
-libreoffice* thunderbird* transmission* cheese bresero gnome-themes-extra rhythmbox gnome-games shotwell gnome-disk-utility gnome-logs gnome-screenshot simple-scan sane* cups* printer-driver* sound-juicer orca gnome-keyring synaptic gnome-software kdeconnect smtube smplayer pidgin audacious mpv hexchat remmina qbittorrent meteo-qt screengrab xsane pavucontrol qpdfview kwalletmanager gucharmap xscreensaver gnome-characters gnome-calculator feathernotes gedit gnome-sound-recorder gnote featherpad qlipper xarchiver papirus-icon-theme discover gnome-system-monitor plasma-desktop kwin* kscreen sddm kio* kde* plasma* khelpcenter* 
+libreoffice* thunderbird* transmission* cheese bresero gnome-themes-extra rhythmbox gnome-games shotwell gnome-disk-utility gnome-logs gnome-screenshot simple-scan sane* cups* printer-driver* sound-juicer orca gnome-keyring synaptic gnome-software kdeconnect smtube smplayer pidgin audacious mpv hexchat remmina qbittorrent meteo-qt screengrab xsane pavucontrol qpdfview kwalletmanager gucharmap xscreensaver gnome-characters gnome-calculator feathernotes gedit gnome-sound-recorder gnote featherpad qlipper xarchiver papirus-icon-theme discover gnome-system-monitor plasma-desktop kwin* kscreen sddm kio* kde* plasma* khelpcenter* muffin xfwm4
 
 then clean up with sudo apt clean and sudo apt autoremove
-install openbox
+install i3 and rofi
 install lightdm as sddm will be gone, if reboot before doing this hit Ctrl + alt + f2 for terminal
-run lxqt-config-session to change to openbox
+run lxqt-config-session to change to i3
+relog
+set your default button and use super + enter to get a terminal up in i3
+uninstall other WMs
+go to ~/.config/i3/config and change the terminal to a new one (I installed kitty to try out)
+sudo apt purge qterminal* gnome-terminal*
+sudo apt purge lxqt* openbox lxsession pcmanfm-qt lximage-qt
+sudo apt install polybar
+
 
 
